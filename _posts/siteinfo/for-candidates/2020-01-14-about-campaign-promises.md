@@ -1,7 +1,7 @@
 ---
 date: 2017-01-14 14:45:05
-title: About campaign promises
-description: Use Jekyll layouts to reduce repetition on your site
+title: About Campaign Promises
+description: About Campaign Promises
 categories:
   - for-candidates
 type: Document
