@@ -31,3 +31,5 @@ Underperforming Notary Nodes are easily identified and risk losing their seat at
 Notary Node teams also contribute to the betterment of Komodo’s ecosystem through core code updates, app/dapp development, representation at events, and community outreach. There is a high level of autonomy regarding methods of contribution, outlined in the proposals of each node standing for election, allowing the voting community to evaluate the merit of each proposal and progress toward achievement of previously-stated goals.
 
 It is important to note that Notary Nodes are not Master Nodes. They do not have the power to refuse or change transactions. They simply take the history of transactions that a blockchain’s decentralized network has agreed upon and make it completely immutable.
+
+Notary Nodes are not intended to be purchased as an investment without ongoing maintenance and ecosystem contribution.
