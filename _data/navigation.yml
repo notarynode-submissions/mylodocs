@@ -1,6 +1,6 @@
 - name: Getting Started
   link: /#
-- name: Live Operators
+- name: Operators
   link: /notary-node-operators/
 - name: Candidates
   link: /candidates/
