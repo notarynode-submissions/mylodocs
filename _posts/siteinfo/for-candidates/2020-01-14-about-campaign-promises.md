@@ -6,10 +6,10 @@ categories:
   - for-candidates
 type: Document
 ---
-Candidates usually do extended campaigns towards the Komodo community, in hopes of getting their vote. These campaigns usually involved various campaign promises ranging from Komodo ecosystem development efforts to various marketing activities.
+Candidates usually run extended campaigns towards Komodo community members, in hopes of getting their votes. These campaigns often involve committing to promote and improve the Komodo ecosystem, ranging from Komodo ecosystem development efforts to various marketing activities.
 
-These promises should be covered on the candidate campaign profile page. All candidates are able to update their profile on their own by doing a pull request on Github.
+These promises should be covered on each candidate’s campaign profile page, along with their VOTE address(es) and the region(s) in which they are running for election. All candidates are able to update their profile on their own by making a pull request on Github.
 
 The campaign promises will be showcased on the Komodoelection.com website.
 
-After elections the campaigns promises are archived for later, so that anyone can review what was promised and make an assessment about the notary operators performance.
+After the election is complete, the campaign promises will be archived so that anyone can review what was promised and make an assessment about each Notary Node Operator’s performance.
