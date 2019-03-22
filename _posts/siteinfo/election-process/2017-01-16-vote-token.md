@@ -1,9 +1,9 @@
 ---
 date: 2017-01-16
-title: VOTE token
+title: VOTE Tokens
 categories:
   - election-process
-description: "The vote token"
+description: VOTE Tokens
 type: Document
 ---
 A special VOTE token is used to conduct the voting for Komodo’s Notary Node election.
