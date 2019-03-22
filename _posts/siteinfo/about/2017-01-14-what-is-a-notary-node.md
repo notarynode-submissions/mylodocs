@@ -6,7 +6,7 @@ categories:
   - about
 type: Document
 ---
-Notary nodes are servers dedicated to performing critical tasks for the Komodo ecosystem.
+Notary nodes are servers dedicated to performing critical tasks for the Komodo ecosystem. test.
 
 * **Security** — perform delayed Proof of Work (dPoW) notarizations to provide Bitcoin-level security 
 * **Interoperability** — notarize data throughout the ecosystem to allow cross-chain communication
