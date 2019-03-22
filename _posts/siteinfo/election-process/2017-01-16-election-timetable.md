@@ -1,9 +1,9 @@
 ---
 date: 2017-01-16
-title: Election timetable
+title: Election Timetable
 categories:
   - election-process
-description: "The timeline"
+description: Election Timetable
 type: Document
 ---
 **April 1**: Candidates are highly encouraged to submit their proposals by this date.
@@ -15,4 +15,3 @@ type: Document
 **May 14**: Voting deadline. Winners are announced.
 
 **June**: New notary nodes are activated through a scheduled Komodo  blockchain update.
-
