@@ -6,8 +6,10 @@ categories:
   - for-candidates
 type: Document
 ---
-The only requirements are:
+Running a notary node is a technical task. It requires:
 
 * A high level of technical expertise
-* Competence in Systems Administration is essential.
+* Competence in Systems Administration
 * Access to a powerful server and high-speed internet
+
+Successful candidates will need to reserve enough time to properly run their Notary Node. Komodo is still largely experimental software, and thus the operators may continuously face new challenges that take time, patience, and skill to solve.

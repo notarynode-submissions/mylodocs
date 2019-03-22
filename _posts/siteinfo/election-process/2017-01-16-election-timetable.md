@@ -1,13 +1,17 @@
 ---
 date: 2017-01-16
-title: Election timetable
+title: Election Timetable
 categories:
   - election-process
-description: "The timeline"
+description: Election Timetable
 type: Document
 ---
-* 1st April: recommended date to have candidacy announced and profile online.
-* 1st week of April - Auto-reelected notary operators are announced
-* 14th April - VOTE coin airdropped to all KMD holders. Voting starts.
-* 14th May - Voting deadline. Winners are announced.
-* June - New notary nodes are activated through a scheduled Komodo  blockchain update.
+**April 1**: Candidates are highly encouraged to submit their proposals by this date.
+
+**April 7 (estimated)**: The 7 top-performing Notary Node Operators from each of the four regions will be automatically re-elected. Performance is measured according to the number of notarizations each node participates in. 
+
+**April 14**: VOTE coin airdropped to all KMD holders. Voting starts immediately after the airdrop is complete.
+
+**May 14**: Voting deadline. Winners are announced.
+
+**June**: New notary nodes are activated through a scheduled Komodo  blockchain update.

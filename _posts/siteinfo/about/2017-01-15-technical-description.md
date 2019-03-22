@@ -1,7 +1,7 @@
 ---
 date: 2019-03-22
-title: Technical description
-description: What does a notary node do
+title: Technical Description
+description: Technical Description
 type: Document
 categories:
   - about
