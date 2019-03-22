@@ -1,7 +1,7 @@
 ---
 date: 2017-01-15
-title: Election rules
-description: Rules of the election
+title: Election Rules
+description: Election Rules
 type: Document
 categories:
   - election-process
