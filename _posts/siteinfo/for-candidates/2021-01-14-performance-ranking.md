@@ -1,7 +1,7 @@
 ---
 date: 2017-01-14 14:45:05
-title: Performance ranking
-description: How are performance measured
+title: Performance Ranking
+description: Performance Ranking
 categories:
   - for-candidates
 type: Document
