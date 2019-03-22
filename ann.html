@@ -1,6 +1,7 @@
 ---
 ---
-{% assign tmpitems = site.posts | where: "category", "proposals" | sort: "title"%}
+{% assign tmpitems = site.posts | where: "category", "ANN" | sort: "title" %}
+
 <!-- START MANUAL SORT /history/ FROM item.path -->
  <!-- assign blank items array -->
  <!-- loop through tmpitems already filtered by category -->
@@ -11,11 +12,7 @@
          {% assign items = items | push: item %}
      {% endunless %}
  {% endfor %}
- <!-- RE-ENABLE FOR LISTING <h2>Candidates <span class="count">({{ items | size }})</span></h2> -->
- <h2>Candidates <span class="count">(X) ?</span></h2>
+<h2>Announcements <span class="count">({{ items | size }})</span></h2>
 
-<pre>
-Coming soon.
-</pre>
-<!-- RE-ENABLE FOR LISTINGS -->
-<!-- {% include listings.html listings=items %} -->
+
+{% include listings.html listings=items %}
