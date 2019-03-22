@@ -1,7 +1,7 @@
 ---
 date: 2017-01-14 14:45:05
-title: How to become a candidate
-description: How you can make your candidacy official
+title: How To Become A Candidate
+description: How To Become A Candidate
 categories:
   - for-candidates
 type: Document
