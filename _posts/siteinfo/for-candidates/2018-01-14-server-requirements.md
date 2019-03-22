@@ -9,7 +9,9 @@ type: Document
 **Hardware**
 
 CPU: Xeon/i7
+
 RAM: 64 GB
+
 Disk: Minimum of 500GB SSD (1 TB recommended)
 
 **Operating System**
