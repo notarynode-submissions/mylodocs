@@ -1,7 +1,7 @@
 ---
 date: 2017-01-14 14:45:05
-title: Komodo elections
-description: komodo elections
+title: Komodo Elections
+description: komodo Elections
 type: Document
 categories:
   - about
