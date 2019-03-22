@@ -1,7 +1,7 @@
 ---
 date: 2019-03-22
-title: Sample candidate proposal
-description: Sample komodo notary node proposal
+title: Sample Candidate Proposal
+description: Sample Candidate Proposal
 category: for-candidates
 type: Document
 ---

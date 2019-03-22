@@ -1,7 +1,7 @@
 ---
 date: 2017-01-15
-title: Notary node incentives
-description: Why KMD easy mining is enabled for notary nodes
+title: Notary Node Incentives
+description: Notary Node Incentives
 type: Document
 categories:
   - about

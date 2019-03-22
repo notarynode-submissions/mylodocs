@@ -1,19 +1,21 @@
 ---
 date: 2017-01-16
-title: VOTE token
+title: VOTE Tokens
 categories:
   - election-process
-description: "The vote token"
+description: VOTE Tokens
 type: Document
 ---
-On the Komodo notary node elections voting is done with VOTE tokens.
+A special VOTE token is used to conduct the voting for Komodo’s Notary Node election.
 
-For each elections a new VOTE token is generated and airdropped to the KMD holders. The airdrop is done with 1:1 ratio. VOTE tokens of the previous years cannot be used.
+For each annual election, a new VOTE token is generated and airdropped at a 1:1 ratio to allKMD holders. VOTE tokens from previous years’ elections cannot be used.
 
-The tokens can be accessed with the same seed as with the KMD coins.
+The tokens can be accessed with the same seed phrase or private key (WIF) for the address in which you store your KMD coins.
 
-by far the easiest way to get the VOTE token is to store your KMD in Agama lite-mode prior to the snapshot. The user will be able to use the same passphrase from their KMD to login with VOTE lite mode. If KMD is stored in native mode, where the user downloads the entire blockchain, the simplest way then would be to use the WIF as the lite-mode passphrase.
+The easiest way to access your VOTE tokens is to store your KMD in Agama Lite Mode prior to the snapshot on April 1, 2019. Of course, you may then move your funds to any address you wish. The VOTE tokens will still be airdropped to the address in which your KMD was held at the time of the snapshot.
 
-To receive VOTE coins you cannot keep your KMD balance on an exchange!
+For those who store their KMD in Agama in Native Mode, the easiest way to access VOTE tokens is to export the private key in WIF (wallet import format). Then simply enter the WIF as the passphrase for Agama Lite Mode and activate the VOTE token.
 
-For more information about voting, see the voting guide (coming soon).
+KMD holders who store their funds on a hardware wallet, such as a Trezor or Ledger device, will need to export their private key in wallet import format (WIF) and import that key to Agama wallet in order to access their VOTE tokens and cast their ballot.
+
+Please note that users who store their KMD on an exchange will not receive VOTE coins. Storing your assets on an exchange makes it impossible to hold your own private keys, and thus impossible to receive any coin or token from an airdrop, including VOTE tokens.
