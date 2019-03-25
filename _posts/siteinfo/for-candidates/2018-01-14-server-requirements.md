@@ -2,8 +2,7 @@
 date: 2017-01-14 14:45:05
 title: Server Requirements
 description: Server Requirements
-categories:
-  - for-candidates
+category: 4-for-candidates
 type: Document
 ---
 **Hardware**
