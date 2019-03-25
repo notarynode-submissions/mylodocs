@@ -2,8 +2,7 @@
 date: 2017-01-14 14:45:05
 title: How To Become A Candidate
 description: How To Become A Candidate
-categories:
-  - for-candidates
+category: 4-for-candidates
 type: Document
 ---
 Anyone can run for in Komodo’s notary node elections. It is not necessary to own KMD.
