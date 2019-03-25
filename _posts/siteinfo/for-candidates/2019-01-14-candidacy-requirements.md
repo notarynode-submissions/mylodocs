@@ -2,8 +2,7 @@
 date: 2017-01-14 14:45:05
 title: Candidacy requirements
 description: Candidate requirements
-categories:
-  - for-candidates
+category: 4-for-candidates
 type: Document
 ---
 Running a notary node is a technical task. It requires:
