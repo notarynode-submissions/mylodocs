@@ -3,8 +3,7 @@ date: 2017-01-15
 title: Election Rules
 description: Election Rules
 type: Document
-categories:
-  - election-process
+category: 2-election-process
 ---
 - Candidates must submit a pull request to the Notary Node repository on Github that includes, at a minimum, their VOTE address(es) and the region(s) in which they are running. Only candidates who meet these basic requirements will be eligible for election.
 
