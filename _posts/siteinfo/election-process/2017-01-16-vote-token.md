@@ -1,8 +1,7 @@
 ---
 date: 2017-01-16
 title: VOTE Tokens
-categories:
-  - election-process
+category: 2-election-process
 description: VOTE Tokens
 type: Document
 ---

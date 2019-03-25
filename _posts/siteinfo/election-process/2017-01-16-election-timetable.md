@@ -1,8 +1,7 @@
 ---
 date: 2017-01-16
 title: Election Timetable
-categories:
-  - election-process
+category: 2-election-process
 description: Election Timetable
 type: Document
 ---

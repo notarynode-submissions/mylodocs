@@ -3,8 +3,7 @@ date: 2017-01-15
 title: Notary Node Incentives
 description: Notary Node Incentives
 type: Document
-categories:
-  - about
+category: 1-about
 ---
 Operating a notary node requires a valuable skill set and a significant commitment of time.
 

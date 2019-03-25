@@ -2,8 +2,7 @@
 date: 2017-01-14 14:45:05
 title: Assetchain
 description: What is an assetchain?
-categories:
-  - glossary
+category: 5-glossary
 type: Document
 ---
 An assetchain is a runtime fork of Komodo.

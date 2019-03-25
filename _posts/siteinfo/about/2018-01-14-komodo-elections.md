@@ -3,8 +3,7 @@ date: 2017-01-14 14:45:05
 title: Komodo Elections
 description: Komodo Elections
 type: Document
-categories:
-  - about
+category: 1-about
 ---
 Every year, the Komodo community holds an election to choose who will operate notary nodes.
 

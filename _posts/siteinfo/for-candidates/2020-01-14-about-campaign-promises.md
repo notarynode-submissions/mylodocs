@@ -2,8 +2,7 @@
 date: 2017-01-14 14:45:05
 title: About Campaign Promises
 description: About Campaign Promises
-categories:
-  - for-candidates
+category: 4-for-candidates
 type: Document
 ---
 Candidates usually run extended campaigns towards Komodo community members, in hopes of getting their votes. These campaigns often involve committing to promote and improve the Komodo ecosystem, ranging from Komodo ecosystem development efforts to various marketing activities.

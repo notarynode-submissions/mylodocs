@@ -3,8 +3,7 @@ date: 2019-03-22
 title: Technical Description
 description: Technical Description
 type: Document
-categories:
-  - about
+category: 1-about
 ---
 For those who wish to gain a deeper understanding of the purpose of Notary Nodes, here is a more technical description about what exactly they do.
 
