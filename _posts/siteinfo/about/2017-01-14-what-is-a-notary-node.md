@@ -3,7 +3,7 @@ date: 2017-01-14 14:45:05
 title: What is a Notary Node?
 description: What is a Notary Node?
 categories:
-  - about
+  - 1-about
 type: Document
 ---
 Notary nodes are servers dedicated to performing critical tasks for the Komodo ecosystem. test.
