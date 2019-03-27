@@ -1,7 +1,7 @@
 ---
 date: 2017-01-14 14:45:05
-title: Daily Duties & Responsibilities
-description: Daily Duties & Responsibilities
+title: Daily Duties & Routine
+description: Daily Duties & Routine
 type: Document
 category: 1-about
 ---
