@@ -1,16 +1,37 @@
 ---
 date: 2017-01-14 14:45:05
-title: Operator Responsibilities
-description: Operator Responsibilities
+title: Daily Duties & Responsibilities
+description: Daily Duties & Responsibilities
 type: Document
 category: 1-about
 ---
-If you’re elected as a Notary Node Operator, you will take part in notarizing all the coins and assetchains that secure themselves with delayed Proof of Work (dPoW). Once your node is elected, it is important to keep the Notary Node up-to-date and to ensure that it is notarizing as often as possible.
+The daily tasks and routine of a Notary Node Operator involves asking some odd questions.
+- How long does listunspent take?
+- How big is my wallet.dat file?
+- Can I jump onto the console and work on fixing a problem for the next few hours?
+- Do I have time to bug hunt?
 
-In order for a chain to be notarized, Notary Nodes need to make a transaction that stores notarization data onto that blockchain. Just like any other transaction, a small fee is required to make a notarization transaction. It is therefore important to make sure you have a small supply of each coin and to make sure that all the coin daemons are up and running on your node. Newly-added coins are installed and synchronized swiftly, to ensure that the new coin is notarized as soon as possible.
+The tasks range from:
+- Ensuring that you’re not on a fork
+- Checking you have UTXOs to spend (all funded by the network) for notarizations.
+- Checking you have a responsive system
+- Tuning your system so you are in agreeance with the rest of the network about which are the best performing nodes for this sequence
+- Updating Komodo or any of the notarized chains when they have upgrades to their code base
 
-Being a notary makes you part of the Komodo Platform. Although it is not necessary, it would be in your best interest to help the Komodo ecosystem and/or your fellow notaries as much as possible. Some examples of this are: help testing new tech that is being developed, writing helpful scripts for other notaries to use, or developing new services that help the Komodo Platform forward.
+The last point is the most important. Komodo’s Notary Node network is a secure functioning network of blockchains. Any weakness will be exploited.  Komodo cares about blockchain technology, whether it is from Komodo or from another project.
 
-It is also in your best interest to participate in as many notarizations as possible because, if your node is among the top 50% in your region, it will be automatically re-elected for a new notary season. That also means that your node gets to have another year of income, around 1500KMD a month.
+The usual sys admin tasks apply. Running several blockchain daemons and dozens of blockchains inevitably comes with some management tasks. It is a baptism of fire for the first 6 weeks, even if you’re already familiar with running full nodes.
 
-All of this requires knowledge of Linux and being comfortable working with the Command Line. Installing a blockchain, synchronizing it, setting up the notary software, management of wallets, improving the node's connectivity to other nodes (networking), monitoring; it's all part of a normal day in the life of a Notary Node Operator.
+Developing scripts to make managing your notary node easier is the primary goal in the first few months. There is a heterogenous method of maintenance amongst Notary Node Operators, with vanilla scripts that make some (but not all tasks) easy. 
+
+When the scripts fail, what do you do? At that point, your node will not be participating in notarizations. It may not even be mining. The scripts may fail when you least expect it. If you've worked in a real-time telecommunications setting (audio or video), this is the type of troubleshooting that can be expected. Blocks sometimes don't arrive and the issue could lay anywhere in the 7-layers of tech or it could be some software bug.
+
+The most important part is making sure your node is up. Has it mined a block in the last 100 blocks?  If yes, you probably have half a healthy node. If your node participated in a notarization in the last few minutes, you are 80% healthy. But are you performant?
+
+The 80/20 rule certainly applies to the scoring system. The scoring goes on notarizations and notarizations are somewhat of a competition. If you have an 80% healthy node, you will likely be in the bottom 20% of the scoring for your region because there are a number of enthusiastic devops and sys admins in Komodo’s Notary Node network.
+
+There will be some itch that needs scratching— constantly!  Will you itch, will you scratch?  How long will you itch before you scratch?  Some scratches will be multi-week, multi-failure attempts to optimize. This is the third season of notarizing. Not every itch has been scratched, and there will of course be new itches to scratch because we have Komodo, which is bleeding-edge technology. Komodo technology is not only for innovation, it's for performance.
+
+The first season’s Notary Node Operators were different from second season’s.  In the second year, Komodo’s delayed proof of work (dPoW) security service was extended to non-Komodo blockchains. This means the second cohort of Notary Node Operators faced a new set of challenges that the first cohort didn’t need to deal with. 
+
+The third season notaries are likely to need to manage resources better than second season notaries. As Komodo is innovating with cross-chain technology and clusters of chains, new maintenance tasks will need to be overcome to be a top-performing node.
