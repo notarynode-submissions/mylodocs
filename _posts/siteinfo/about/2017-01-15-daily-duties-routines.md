@@ -8,6 +8,7 @@ category: 1-about
 **Daily Duties & Responsibilities**
 
 *From Notary Node Operator team Chainmakers*
+
 As a NN operator, you take part in securing all the coins and assetchains that secure themselves through delayed Proof of Work, or dPoW. There are many aspects to being a notary node operator, all with the goal to keep notarizations going 24/7.
 
 Monitoring a Notary Node
@@ -56,6 +57,7 @@ A notary can write their own tools, or use any of the tools that other notaries 
 
 
 *From Notary Node Operator team Komodo Pioneers*
+
 The daily tasks and routine of a Notary Node Operator involves asking some odd questions.
 - How long does listunspent take?
 - How big is my wallet.dat file?
