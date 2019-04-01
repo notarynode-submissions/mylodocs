@@ -5,7 +5,6 @@ description: Daily Duties & Routine
 type: Document
 category: 1-about
 ---
-**Daily Duties & Responsibilities**
 
 *From Notary Node Operator team Chainmakers*
 
