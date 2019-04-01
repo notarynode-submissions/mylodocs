@@ -5,6 +5,57 @@ description: Daily Duties & Routine
 type: Document
 category: 1-about
 ---
+**Daily Duties & Responsibilities**
+
+*From Notary Node Operator team Chainmakers*
+As a NN operator, you take part in securing all the coins and assetchains that secure themselves through delayed Proof of Work, or dPoW. There are many aspects to being a notary node operator, all with the goal to keep notarizations going 24/7.
+
+Monitoring a Notary Node
+A large part of being a NN operator is making sure your Notary Node is notarizing. There are many things that can (and will) go wrong, for which you need to set up tools to quickly see what is going wrong.
+
+So, what does a notary need to track to keep notarizing?
+
+Iguana
+Notarizing is done through Iguana. Iguana runs as an application on a server, so the most important thing is to check whether Iguana is running, using a simple ping or special scripts.
+
+Coin Management
+The coins that are currently notarized, need to be running as well, since a transaction is done for every notarization.
+In addition, this means that every coin must have enough funds to be able to do a transaction. Actual transactions are done in small amounts, but many coins have a notarization frequency of 10 blocks. Many small transaction amounts quickly drain your node's balance.
+
+Whenever a new coin is accepted to be notarized, it is important to install the coin's daemon, synchronize the blockchain and set up Iguana to be able to notarize the newly added coin as swiftly as possible.
+
+Coins often need updates. Being on call whenever a coin needs an update is an important task of a notary, especially when the update concerns the security of the node. A notify system exists when all notaries need to be notified quickly. All notaries are part of a notary group in Discord and Riot, the latter being used as a fallback if the Discord service is down.
+
+Notaries are not always near a pc or laptop. Many have set up email services or Telegram bots to be notified of any downtime.
+
+Responsiveness of a Node
+For continuity's sake: making sure your node keeps notarizing as much as possible. This has an economic reason:
+Each of the 64 nodes mine approximately 1500 KMD per month. Every year, 28 of the 64 best performing nodes get to keep their notary spot, and so they get to keep another year of rewards. It is therefore important to get as many notarizations as possible.
+
+In addition to the previously mentioned things to monitor, a notary tries to keep all its coin wallets as light as possible. Wallet management, as the notaries call it, has keeping as few UTXOs as possible for each coin on the node as its primary goal.
+Without getting too technical: it is important for a coin daemon to be able to offer an Unspent Transaction Output (UTXO) to the other notaries, since 13 of the 64 notaries participate in a single notarization.
+
+The probability that your node participates in the next notarization is higher when your coin daemon can supply an UTXO very fast. In order to make this fast, the wallet must not contain too much history, since not only Unspent Transactions are stored in a wallet, but also Spent Transactions.
+
+Scripts have been made that track the size of a wallet, or that periodically reset a wallet to keep the wallet as light as possible.
+
+Another degree in which a node can perform better is to have a good network connectivity to all other nodes. There are many things that help connectivity, such as the physical location of a node or the internet settings that are specified in the node's network controller.
+
+CLI Knowledge
+All of this requires knowledge of Linux and being comfortable working with the Command Line. Installing a coin, synchronizing it, setting up the notary software, management of wallets, improving the node's connectivity to other nodes, cronjobs, monitoring; it's all part of a normal day in the life of a Notary Node Operator.
+
+Helping Others
+Although it is not necessary, it would be in a node's best interest to help the Komodo Platform and / or your fellow notaries as good as possible. Some examples of this are:
+
+- Testing newly developed tech
+- create tools that help the Komodo Platform forward
+- write scripts for other notaries to use
+- helping the devs to fix bugs
+
+A notary can write their own tools, or use any of the tools that other notaries graciously made available. (see this repository)
+
+
+*From Notary Node Operator team Komodo Pioneers*
 The daily tasks and routine of a Notary Node Operator involves asking some odd questions.
 - How long does listunspent take?
 - How big is my wallet.dat file?
