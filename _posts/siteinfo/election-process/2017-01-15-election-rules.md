@@ -14,3 +14,5 @@ category: 2-election-process
 - The buying & selling of VOTE tokens is strictly prohibited.
 
 - At the end of the voting period, the 8 addresses in each region with the most VOTE tokens will be awarded a seat as a Notary Node Operator.
+
+- A notary node team can only control one notary node per region, which means they can control up to four notary nodes in total.
