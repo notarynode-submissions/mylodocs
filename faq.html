@@ -3,26 +3,35 @@ faq:
   - question: When is the 2019 Notary Node election?
     answer: The 2019 Notary Node election is scheduled to begin on April 14, 2019. The voting period will end on May 14.
   - question: Who can participate?
-    answer: Anyone who holds KMD can vote in the election. Special VOTE tokens are sent out on a 1:1 basis based on a snapshop that will be taken on April 1, 2019.
+    answer: Anyone who holds KMD can vote in the election. Special VOTE tokens are sent out on a 1:1 basis based on a snapshop that will be taken on April 14, 2019.
   - question: What is it for?
     answer: The purpose of the election is to allow the Komodo community to choose the Notary Node Operators. Please read the pages in the [about](/) section to learn more about Notary Nodes.
   - question: Why does Komodo hold annual Notary Node Elections?
     answer: The delayed proof of work (dPoW) notarization process is vital to the security of the Komodo ecosystem. As such, it's essential to have competent individuals operating the Notary Nodes. Rather than the Komodo team handpicking Notary Node Operators, the Komodo team chose to open the process to the community and allow KMD holders to select Notary Node Operators in as decentralized a way as possible.
   - question: How do I vote?
     answer: Simply send your VOTE tokens to the address(es) of the candidate(s) you want to vote for. It works the same way as sending any other coin or token. You can send all of your VOTE tokens to one candidate or you can split your VOTE amongst several candidates. Winning candidates have the most VOTE.
+  - question: Can the VOTE tokens be reused next year?
+    answer: No. The assetchain's name created for this purpose includes the year. For example, the VOTE tokens of the year 2018, were on the chain called "VOTE2018". After the election is over, these tokens are not useful. Every year, to airdrop the VOTE tokens, a new snapshot of the KMD chain is taken. This results in the actual stake holders having the power to elect the notary nodes.
+  - question: Can the Notary Nodes use the KMD earned through the notarisation process to keep electing themselves perpetually?
+    answer: The average number of VOTE tokens that a notary needs to win an election is greater than 1 million. The lowest number of votes received by a winning notary elected last year were - 0.483325 million, 0.769000 million and 0.858655 million. The number of KMD that a notary earns each year is approximately ~ 18437 KMD. Using these KMD, the operator has to maintain highly reliable with monstrous specs, be available to promptly update their nodes, add new chains and use the leftover to support themselves or community initiatives and bounties. Even if there were no expenses, the notary node operators all together will be able to get at most 2 operators elected in an election using the previous year's earnings. Please go through the following link to understand the coin emission and inflation mechanism for the KMD chain- https://docs.komodoplatform.com/komodo/coin-emission.html#summary
 ---
 
 <h1>Election FAQ</h1>
 
 <section class="faq">
-	<ul>
-		{% for item in page.faq %}
-			<li><a href="#{{ item.question | slugify }}">{{ item.question }}</a></li>
-		{% endfor %}
-	</ul>
+  <ul>
+    {% for item in page.faq %}
+    <li>
+      <a href="#{{ item.question | slugify }}">{{ item.question }}</a>
+    </li>
+    {% endfor %}
+  </ul>
 
-	{% for item in page.faq %}
-		<h2 id="{{ item.question | slugify}}">{{ item.question }}<a class="header-link" href="#{{ item.question | slugify }}">#</a></h2>
-		{{ item.answer | markdownify }}
-	{% endfor %}
+  {% for item in page.faq %}
+  <h2 id="{{ item.question | slugify }}">
+    {{ item.question
+    }}<a class="header-link" href="#{{ item.question | slugify }}">#</a>
+  </h2>
+  {{ item.answer | markdownify }}
+  {% endfor %}
 </section>

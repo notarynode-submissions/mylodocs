@@ -7,11 +7,11 @@ type: Document
 ---
 A special VOTE token is used to conduct the voting for Komodo’s Notary Node election.
 
-For each annual election, a new VOTE token is generated and airdropped at a 1:1 ratio to allKMD holders. VOTE tokens from previous years’ elections cannot be used.
+For each annual election, a new VOTE token is generated and airdropped at a 1:1 ratio to all KMD holders. Both the snapshot and airdrop will take place on April 14, 2019. VOTE tokens from previous years’ elections cannot be used.
 
 The tokens can be accessed with the same seed phrase or private key (WIF) for the address in which you store your KMD coins.
 
-The easiest way to access your VOTE tokens is to store your KMD in Agama Lite Mode prior to the snapshot on April 1, 2019. Of course, you may then move your funds to any address you wish. The VOTE tokens will still be airdropped to the address in which your KMD was held at the time of the snapshot.
+For those who store thier KMD in Agama Lite Mode, simply restore your wallet and activate the VOTE token after the airdrop has taken place. 
 
 For those who store their KMD in Agama in Native Mode, the easiest way to access VOTE tokens is to export the private key in WIF (wallet import format). Then simply enter the WIF as the passphrase for Agama Lite Mode and activate the VOTE token.
 
