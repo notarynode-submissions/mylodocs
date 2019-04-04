@@ -2,7 +2,7 @@
 date: 2019-03-22
 title: Sample Candidate Proposal
 description: Sample Candidate Proposal
-category: for-candidates
+category: 4-for-candidates
 type: Document
 ---
 

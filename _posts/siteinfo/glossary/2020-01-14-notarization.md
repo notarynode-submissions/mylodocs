@@ -2,8 +2,7 @@
 date: 2017-01-14 14:45:05
 title: Notarization
 description: What is a notarization?  
-categories:
-  - glossary
+category: 5-glossary
 type: Document
 ---
 A notarization is the process of storing important blockchain data from one blockchain onto the ledger of a separate blockchain. In particular, the data includes a block hash, the corresponding block hash, and the name of the blockchain to which they belong.

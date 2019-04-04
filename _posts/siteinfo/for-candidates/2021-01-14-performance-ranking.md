@@ -2,8 +2,7 @@
 date: 2017-01-14 14:45:05
 title: Performance Ranking
 description: Performance Ranking
-categories:
-  - for-candidates
+category: 4-for-candidates
 type: Document
 ---
 Historical notarization statistics are recorded on-chain, and easily viewable by the community through the following portals:
