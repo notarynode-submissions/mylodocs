@@ -2,4 +2,4 @@
 set -e # halt script on error
 
 git clone https://github.com/KomodoPlatform/NotaryNodes.git
-touch ../_posts/2019-04-05-happy-birthday.md
+touch ./_posts/2019-04-05-happy-birthday.md
