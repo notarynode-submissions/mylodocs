@@ -11,11 +11,11 @@
          {% assign items = items | push: item %}
      {% endunless %}
  {% endfor %}
- <!-- RE-ENABLE FOR LISTING <h2>Candidates <span class="count">({{ items | size }})</span></h2> -->
- <h2>Candidates <span class="count">(X) ?</span></h2>
+ <h2>Candidates <span class="count">({{ items | size }})</span></h2>
+ <!-- <h2>Candidates <span class="count">(X) ?</span></h2> -->
 
-<pre>
+<!-- <pre>
 Coming soon.
-</pre>
+</pre> -->
 <!-- RE-ENABLE FOR LISTINGS -->
-<!-- {% include listings.html listings=items %} -->
+{% include listings.html listings=items %}
