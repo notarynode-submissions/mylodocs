@@ -2,4 +2,31 @@
 set -e # halt script on error
 
 git clone https://github.com/KomodoPlatform/NotaryNodes.git
-touch ./_posts/2019-04-05-happy-birthday.md
+#touch ./_posts/2019-04-05-happy-birthday.md
+
+# cleanup "_site"
+rm -rf _site
+mkdir _site
+
+# clone remote repo to "_site"
+git clone https://${GH_TOKEN}@github.com/notarynode-submissions/mylodocs.git --branch master site
+git clone https://github.com/KomodoPlatform/NotaryNodes --branch master notarynodes
+cd notarynodes
+for i in  `git log --pretty=format: --name-only --since="43 days ago" | grep notarynodes | grep "README.md"  | sort | uniq`
+do
+  POSTS="../_posts"
+  CANDIDATE=`echo $i | cut -d "/" -f 2
+  echo "---" > $POSTS/`date +%Y-%m-%d`"-$CANDIDATE.md"
+  echo "date: 2019-03-31" >> $POSTS/`date +%Y-%m-%d`"-$CANDIDATE.md"
+  echo "title: Candidate" >> $POSTS/`date +%Y-%m-%d`"-$CANDIDATE.md"
+  echo "description: Candidate" >> $POSTS/`date +%Y-%m-%d`"-$CANDIDATE.md"
+  echo "category: proposals" >> $POSTS/`date +%Y-%m-%d`"-$CANDIDATE.md"
+  echo "type: Document" >> $POSTS/`date +%Y-%m-%d`"-$CANDIDATE.md"
+  echo "---" >> $POSTS/`date +%Y-%m-%d`"-$CANDIDATE.md"
+  cat $i >> $POSTS/`date +%Y-%m-%d`"-$CANDIDATE.md"
+done
+
+# build with Jekyll into "_site"
+bundle exec jekyll build
+
+# push
