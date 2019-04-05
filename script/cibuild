@@ -15,7 +15,7 @@ cd notarynodes
 for i in  `git log --pretty=format: --name-only --since="43 days ago" | grep notarynodes | grep "README.md"  | sort | uniq`
 do
   POSTS="../_posts"
-  CANDIDATE=`echo $i | cut -d "/" -f 2
+  CANDIDATE=`echo $i | cut -d "/" -f 2`
   echo "---" > $POSTS/`date +%Y-%m-%d`"-$CANDIDATE.md"
   echo "date: 2019-03-31" >> $POSTS/`date +%Y-%m-%d`"-$CANDIDATE.md"
   echo "title: Candidate" >> $POSTS/`date +%Y-%m-%d`"-$CANDIDATE.md"
