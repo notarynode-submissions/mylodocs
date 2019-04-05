@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
-bundle exec jekyll build
-bundle exec htmlproofer ./_site
+git clone https://github.com/KomodoPlatform/NotaryNodes.git
+touch ../_posts/2019-04-05-happy-birthday.md
